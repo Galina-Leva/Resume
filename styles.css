@@ -1,0 +1,153 @@
+body {
+    background-color: rgba(250, 215, 245, 0.931);
+    color: blue;
+}
+
+a {
+ color:black;
+ text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: red;
+}
+
+.avatar {
+width: 200px;
+border-radius: 50%;
+box-shadow: 4px 4px 4px rgba(red, green, blue, alpha)
+}
+
+.info p {
+    color: brown(216, 189, 196)
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+}
+
+.bg-yellow {
+    background: rgba(255, 255, 0, 0.822);
+}
+
+.bg-green {
+    background: rgba(0, 128, 0, 0.746);
+}
+
+.bg-pink {
+    background: rgba(255, 192, 203, 0.801);
+}
+
+.bg-red {
+    background: rgba(255, 0, 0, 0.753);
+}
+
+/*.social {
+ background: rgb(255, 192, 203);
+ padding-top: 15px;
+ padding-right: 20px;
+ padding-bottom: 25px;
+ padding-left: 30px;
+ margin: 5px;
+
+ border: 5px solid red;
+ border-bottom-style: dotted;
+ border-top-width: 12px ;
+ border-right-color: blueviolet;
+}*/
+
+
+/*.box-model > div {/*
+    float: left;
+    background: pink(255, 255, 255, 0.527);/*
+    height: 200px;
+    border: 4px solid rgb(229, 255, 0);
+    width: 25%;
+    box-sizing: border-box;
+}*/
+
+.card {
+ padding: 15px 20px;
+ margin-bottom: 20px;
+ border-radius: 20px;
+ border-bottom: 1px solid green;
+}
+
+.list {
+    padding: 0;
+}
+
+.list li {
+    color: rgb(76, 43, 226);
+    margin-bottom: 10px;
+    border-bottom: 1px solid green;
+}
+
+.list2 {
+    padding: 0;  
+}
+
+.list2 li {
+    color: rgb(76, 43, 226);
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(92, 0, 128, 0.945);
+}
+
+.list3 {
+    padding: 0;  
+}
+
+.list3 li {
+    color: rgb(76, 43, 226);
+    margin-bottom: 10px;
+    border-bottom: 1px solid green;
+}
+
+.link-list {
+    padding: 0;
+}
+
+.link-list li {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid white;
+}
+
+.contact h2 {
+  text-align: center;
+
+}
+
+.form-group label {
+ display: block;
+ font-size: 14px;
+ color:rgb(183, 0, 255)
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid brown;
+    background: transparent;
+    color:black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .form-group {
+    width: 50%;
+    margin-right: 20px;
+}
